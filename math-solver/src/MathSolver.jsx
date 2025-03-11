@@ -13,7 +13,7 @@ export default function MathSolver() {
     }
   
     try {
-      const apiKey = "AIzaSyAogr3pbVFneitVQxgpDlTtJr8-Vf1auuYq"; // Replace with your actual API key
+      const apiKey = "AIzaSyAogr3pbVFneitVQxgpDlTtJr8-Vf1auuYq"; 
       const response = await fetch(`https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateText?key=${apiKey}`, {
         method: "POST",
         headers: {
